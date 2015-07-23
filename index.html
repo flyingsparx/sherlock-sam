@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SHERLOCK-SAM</title>
+    <link rel="shortcut icon" href="media/ios_icon.png">
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <link rel="stylesheet" href="css/chat.css" type="text/css"/>
+  </head>
+  <body>
+
+      <section id="chat">
+        <div class="row" id="cards"></div>
+        <div style="height:20px;">
+            <div style="text-align:right;margin-right:1%;display:inline-block;float:right;">
+                <input id="autofill" type="checkbox" checked="checked"/><span style="margin-left:5px;">Input suggestions</span>
+            </div>
+        </div>
+        <div id="text_input_area">
+            <textarea class="sherlock-input" id="text" placeholder="Enter your message..."></textarea>
+            <textarea class="sherlock-input" id="guess" readonly></textarea>
+        </div>
+        
+        <div class="center row">
+            <button id="send">Send message</button>
+        </div>
+    </section>
+
+    <section id="info">
+        <!-- TODO: add components:
+            - counter
+            - name (user.name)
+            - score (user.score)
+        -->
+        INFO
+    </section> 
+
+    <section id="observatory">
+        <!-- TODO: add components:
+            - camera list
+            - 'video' frame 1
+            - 'video' frame 2
+            - dashboard
+            - map
+        -->
+        OBSERVATORY
+    </section>
+
+    <script src="http://cenode.io/cenode.js"></script>  
+    <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
+  </body> 
+</html>
