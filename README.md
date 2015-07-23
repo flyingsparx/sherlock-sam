@@ -1,6 +1,6 @@
-# SHERLOCK
+# SHERLOCK-SAM
 
-This repository contains the source code for the ITA project's SHERLOCK game for CE experiments.
+This repository contains the source code for the ITA project's SHERLOCK-SAM game for CE experiments.
 
 The game uses the CENode library to maintain a knowledge base, which is described purely in ITA Controlled English.
 
